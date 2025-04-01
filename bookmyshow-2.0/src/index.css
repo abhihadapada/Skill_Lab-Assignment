@@ -1,0 +1,56 @@
+/* Custom Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-caption {
+  bottom: 20px;
+  left: 20px;
+  right: auto;
+  text-align: left;
+  max-width: 400px;
+}
+
+.btn-danger {
+  background-color: #e50914;
+  border-color: #e50914;
+}
+
+.btn-danger:hover {
+  background-color: #b2070f;
+  border-color: #b2070f;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.badge.bg-warning {
+  color: #000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-caption {
+    max-width: 100%;
+    left: 10px;
+    right: 10px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1rem;
+  }
+  
+  .carousel-caption p {
+    display: none;
+  }
+}

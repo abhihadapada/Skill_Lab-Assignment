@@ -1,0 +1,54 @@
+/* Add these to your existing App.css */
+
+/* Footer styles */
+footer a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #f84464 !important;
+}
+
+/* Search bar styles */
+.search-suggestions {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  background: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+
+.search-suggestions .dropdown-item {
+  padding: 8px 16px;
+}
+
+.search-suggestions .dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #f84464;
+}
+
+/* Event/Sports card styles */
+.event-card, .sports-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.event-card:hover, .sports-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-footer {
+  background: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
